@@ -1,0 +1,24 @@
+# Student Data System
+
+print("----- STUDENT DATA SYSTEM -----")
+
+name = input("Enter student name: ")
+roll_no = int(input("Enter roll number: "))
+age = int(input("Enter age: "))
+marks = float(input("Enter marks: "))
+branch = input("Enter branch: ")
+
+print("\n----- STUDENT DETAILS -----")
+print("Name:", name)
+print("Roll No:", roll_no)
+print("Age:", age)
+print("Marks:", marks)
+print("Branch:", branch)
+
+# Display data types
+print("\n----- DATA TYPES -----")
+print("Name:", type(name))
+print("Roll No:", type(roll_no))
+print("Age:", type(age))
+print("Marks:", type(marks))
+print("Branch:", type(branch))
