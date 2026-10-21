@@ -1,0 +1,19 @@
+# Tuple
+t = (10, 20, 30, 40)
+print("Tuple:", t)
+print("Tuple Length:", len(t))
+print("Tuple Element:", t[1])
+
+# Set
+s = {10, 20, 30}
+s.add(40)
+print("Set:", s)
+s.remove(20)
+print("After Removal:", s)
+
+# Dictionary
+d = {"name": "Amit", "age": 20}
+print("Dictionary:", d)
+d["city"] = "Nagpur"
+print("After Adding:", d)
+print("Name:", d["name"])
