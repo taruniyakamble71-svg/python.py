@@ -1,0 +1,15 @@
+numbers = [10, 20, 30, 40]
+
+print("List:", numbers)
+numbers.append(50)
+print("Append:", numbers)
+numbers.insert(1, 15)
+print("Insert:", numbers)
+numbers.remove(30)
+print("Remove:", numbers)
+numbers.sort()
+print("Sorted:", numbers)
+print("Length:", len(numbers))
+print("Maximum:", max(numbers))
+print("Minimum:", min(numbers))
+print("Sum:", sum(numbers))
