@@ -1,0 +1,30 @@
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+# Singly Linked List
+a = Node(10)
+b = Node(20)
+a.next = b
+print("Singly:", a.data, a.next.data)
+
+# Doubly Linked List
+class DNode:
+    def __init__(self, data):
+        self.data = data
+        self.prev = None
+        self.next = None
+
+x = DNode(10)
+y = DNode(20)
+x.next = y
+y.prev = x
+print("Doubly:", x.data, x.next.data)
+
+# Circular Linked List
+c = Node(10)
+d = Node(20)
+c.next = d
+d.next = c
+print("Circular:", c.data, c.next.data)
