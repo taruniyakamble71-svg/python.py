@@ -1,0 +1,15 @@
+from collections import deque
+
+# Stack Operations
+stack = []
+stack.append("Task 1")
+stack.append("Task 2")
+print("Stack:", stack)
+print("Completed:", stack.pop())
+
+# Queue Operations
+queue = deque()
+queue.append("Task 1")
+queue.append("Task 2")
+print("Queue:", list(queue))
+print("Processed:", queue.popleft())
