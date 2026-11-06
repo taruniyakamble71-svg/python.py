@@ -1,0 +1,10 @@
+import numpy as np
+
+a = np.array([[1, 2], [3, 4]])
+
+print("Array:\n", a)
+print("Indexing:", a[0, 1])
+print("Slicing:", a[:, 0])
+print("Reshaping:\n", a.reshape(4, 1))
+print("Addition:\n", a + 2)
+print("Multiplication:\n", a * 2)
