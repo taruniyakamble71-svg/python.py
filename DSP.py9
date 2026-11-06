@@ -1,0 +1,26 @@
+# Stack Operations
+stack = []
+stack.append(10)
+stack.append(20)
+print("Stack:", stack)
+print("Popped:", stack.pop())
+
+# Infix to Postfix
+def postfix(exp):
+    stack = []
+    result = ""
+
+    for ch in exp:
+        if ch.isalnum():
+            result += ch
+        elif ch == '+':
+            while stack:
+                result += stack.pop()
+            stack.append(ch)
+
+    while stack:
+        result += stack.pop()
+
+    return result
+
+print("Postfix:", postfix("A+B"))
